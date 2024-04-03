@@ -54,7 +54,7 @@ earthquakes %>%
 ### Exericse 4
 
 ```{r}
-top_regions <- earthquakes %>%
+highest_regions <- earthquakes %>%
   filter(region %in% c("Turkey", "Iran", "China", "Japan", "United States"))
 
 
