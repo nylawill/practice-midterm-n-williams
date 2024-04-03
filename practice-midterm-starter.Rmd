@@ -21,7 +21,11 @@ library(openintro)
 ### Exericse 1
 
 [Enter code and/or narrative here.]
-
+```{r}
+glimpse(earthquakes)
+```
+ In this file, there are 123 Rows and 7 columns or variables. There are 5 numerical variables and 2 catergorical variables. 
+ 
 ### Exericse 2
 
 [Enter code and/or narrative here.]
