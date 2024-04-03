@@ -29,7 +29,13 @@ glimpse(earthquakes)
 ### Exericse 2
 
 [Enter code and/or narrative here.]
+```{r}
+earthquake <- names(earthquakes)
+```
 
+Two stylistic choices for the names "earthquake : 
+(1) Appropriate representation
+(2) conciseness
 ### Exericse 3
 
 [Enter code and/or narrative here.]
