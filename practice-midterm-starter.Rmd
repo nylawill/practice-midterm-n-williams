@@ -1,0 +1,58 @@
+---
+title: "EAES 420 Midterm Starter"
+author: "Enter your name"
+date: "Enter the date"
+output: html_document
+---
+
+## Academic Honesty Statement
+
+*I, \_\_\_\_\_\_\_\_\_\_\_\_\_, hereby state that I will not communicate with or gain information in any way from my classmates, or copy work from past assignments, during this exam, and that all work is my own.*
+
+## Load packages
+
+```{r load-packages, message = F}
+library(tidyverse)
+library(openintro)
+```
+
+## Exericses
+
+### Exericse 1
+
+[Enter code and/or narrative here.]
+
+### Exericse 2
+
+[Enter code and/or narrative here.]
+
+### Exericse 3
+
+[Enter code and/or narrative here.]
+
+### Exericse 4
+
+[Enter code and/or narrative here.]
+
+### Exericse 5
+
+[Enter code and/or narrative here.]
+
+### Exericse 6
+
+[Enter code and/or narrative here.]
+
+### Exericse 7
+
+```{r visualize-earthquakes-deaths, eval = F}
+earthquakes_subset %>% 
+  ggplot(aes(x = month, y = deaths)) +
+  geom_violin() +
+  theme_classic()
+```
+
+[Enter code and/or narrative here.]
+
+### Exericse 8
+
+[Enter code and/or narrative here.]
