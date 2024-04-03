@@ -28,7 +28,7 @@ glimpse(earthquakes)
  
 ### Exericse 2
 
-[Enter code and/or narrative here.]
+
 ```{r}
 earthquake <- names(earthquakes)
 ```
@@ -38,7 +38,18 @@ Two stylistic choices for the names "earthquake :
 (2) conciseness
 ### Exericse 3
 
-[Enter code and/or narrative here.]
+```{r counting observations by region}
+earthquakes %>% 
+  count(region, sort = TRUE)
+```
+To Generate a similar output I could have used :
+
+```{r}
+earthquakes %>%
+  group_by(region) %>%
+  summarize(count = n()) %>%
+  arrange(desc(count))
+```
 
 ### Exericse 4
 
